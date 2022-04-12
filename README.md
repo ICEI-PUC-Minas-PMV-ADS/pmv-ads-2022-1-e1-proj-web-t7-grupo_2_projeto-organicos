@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# FEIRA EM CASA: UM E-COMMERCE SOCIAL DE PRODUTOS ORGÂNICOS
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`PROJETO: DESENVOLVIMENTO DE APLICAÇÃO WEB FRONT-END`
 
-`SEMESTRE`
+`1° SEMESTRE`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Aline de Moura
+* Carlos Eduardo Pereira Marques
+* Cibeli Maria Munhoz
+* Cristian Balbi De Faria Junior
+* Leonardo Gonçalves Teles
+* Pablo Henrique de Morais
 
 ## Orientador
 
-* Nome completo do professor 1
+* Nathalia Assis Valentim
 
 ## Instruções de utilização
 
