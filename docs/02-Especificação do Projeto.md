@@ -19,21 +19,20 @@ Baseadas em dados sobre comportamentos e características dos clientes, as perso
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Uma história de usuário é a descrição geral de um recurso de software escrita a partir da perspectiva do usuário final. Para articular como um recurso gerará valor para o cliente, ela deve ser curta e objetiva, explicando do ponto de vista do usuário o que ele deseja e por que.[9,10]
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|EU COMO... `PERSONA`     | QUERO/PRECISO ... `FUNCIONALIDADE`                                  |PARA ... `MOTIVO/VALOR`                                    |
+|-------------------------|---------------------------------------------------------------------|-----------------------------------------------------------|
+|Hugo Almeida [consumidor]| um serviço de assinatura de produtos orgânicos                      | receber tudo que quero periodicamente com mais comodidade.|
+|Hugo Almeida [consumidor]| encontrar produtos orgânicos com valores mais acessíveis            | consumi-los com maior frequência e quantidade.            |
+|Hugo Almeida [consumidor]| saber o local e horário que produtores estarão na minha região      | poupar tempo na busca dos produtos de melhor qualidade, quando quiser compra-los presencialmente.|
+|Hugo Almeida [consumidor]| descobrir produtos de melhor qualidade nutritiva                    | adequar meus hábitos a um estilo de vida saudável.        |
+|Hugo Almeida [consumidor]| estímulos ao consumo de produtos orgânicos                          | incentivar familiares e amigos a mudar hábitos.           |
+|Hugo Almeida [consumidor]| comprar produtos orgânicos online                                   | recebê-los frescos no conforto da minha casa.             |
+|Hugo Almeida [consumidor]| um clube de fidelidade para quem consome orgânicos de forma regular | economizar nas compras regulares.                         |
+|Marina Borges [produtora]| bons locais para oferecer meus produtos                             | melhor alocar meus pontos de venda.                       |
+|Marina Borges [produtora]| anunciar meus produtos em um e-commerce confiável                   | aumentar minhas vendas e cartela de clientes.             |
+|Marina Borges [produtora]| aproximar-me de meus clientes e alcançar novos                      | garantir um atendimento personalizado e incentivá-los a comprar de forma regular.|
 
 ## Requisitos
 
@@ -41,46 +40,39 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|ID    | Descrição do Requisito                                                                                  | Prioridade |
+|------|---------------------------------------------------------------------------------------------------------|------------|
+|RF-001| O site deverá oferecer assinaturas com seleção de produtos e a periodicidade de entrega.                | Alta       | 
+|RF-002| O site deverá oferecer um mapeamento de produtores, horários e locais de vendas.                        | Alta       |
+|RF-003| O site deverá permitir o salvamento e manejo de fornecedores e produtos.                                | Alta       |
+|RF-004| O site deverá oferecer a funcionalidade de pesquisa com filtro.                                         | Baixa      |
+|RF-005| O site deverá permitir o cadastro de fornecedores e usuários, bem como manter os perfis de usuário.     | Alta       |
+|RF-006| O site deverá oferecer um sistema de comunicação entre consumidor e produtor.                           | Média      |
+|RF-007| O site deverá conter um sistema de pagamento integrado.                                                 | Média      |
+|RF-008| O site deverá conter um sistema de avaliação de fornecedores com termômetro de confiabilidade.          | Alta       |
+|RF-009| O site deverá conter um blog interativo para publicidade e incentivo ao consumo de orgânicos.           | Baixa      |
+|RF-010| O site deverá conter uma área de suporte ao cliente.                                                    | Média      |
+|RF-011| O site deverá permitir o cadastro de promoções para os produtos obtidos, aplicando automaticamente o percentual de desconto vinculando ao cadastro do produto. | Média |
+|RF-012| O site deverá permitir que o usuário possa alterar os dados do seu cadastro.                            | Média      |
+|RF-013| O site deverá permitir que se verifique quais vendas foram realizadas e qual o status de seu pagamento. | Alta       |
+|RF-014| O site deverá informar quando o produto for enviado ao cliente.                                         | Baixa      |
 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|ID     | Descrição do Requisito                                                                  |Prioridade |
+|-------|-----------------------------------------------------------------------------------------|-----------|
+|RNF-001| O site deverá ser publicado em um ambiente público e acessível na Internet.             | Média     | 
+|RNF-002| O site deverá ser responsivo.                                                           | Alta      | 
+|RNF-003| O site deverá ser compatível com os principais navegadores.                             | Baixa     |
+|RNF-004| O site deverá conter um sistema de segurança e criptografia de informações dos usuários.| Alta      | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+|ID    | Restrição                                                      |
+|------|----------------------------------------------------------------|
+|RE-001| A solução deverá ser implementada e apresentada até 12/06/2022.|
+|RE-002| O sistema deverá ser desenvolvido em JavaScript, HTML e CSS.   |
+|RE-003| O desenvolvimento do trabalho não pode ser subcontratado.      |
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
