@@ -1,7 +1,13 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+1.	TONI, Deonir de; MILAN, Gabriel Sperandio; LARENTIS, Fabiano; EBERLE, Luciene; PROCÓPIO, Aline Weste. Image Configuration of Organic Food and its Motivation for Consumption. Ambiente & Sociedade, [S.L.], v. 23, p. 1-25, 2020. Disponível em: https://doi.org/10.1590/1809-4422asoc20170232r4vu2020L5AO. Acesso em: 19 mar. 2022.
+2.	ALMEIDA, Arthur; VIMERCATE, Nicolly. Oito fatos sobre o consumo de orgânicos no Brasil. Globo Rural: Agricultura. 04 fev. 2022. Disponível em: https://revistagloborural.globo.com/Noticias/Agricultura/noticia/2022/02/oito-fatos-sobre-o-consumo-de-organicos-no-brasil.html#:~:text=Mais%20de%2030%25%20dos%20brasileiros,2019%20e%2015%25%20em%202017.. Acesso em: 19 mar. 2022.
+3.	BISPO, Thamires. Alimentos orgânicos: pequenos agricultores são os principais produtores. Semanário. 01 nov. 2020. Disponível em: https://jornalsemanario.com.br/alimentos-organicos-pequenos-agricultores-sao-os-principais-produtores/. Acesso em: 19 mar. 2022.
+4.	ORGANIS. Panorama do consumo de orgânicos no Brasil 2019. 2019. 69 slides, color. Disponível em: https://organis.org.br/wp-content/uploads/2020/12/PESQUISA-ORGANIS-2019-2020-07-11.pdf. Acesso em: 19 mar. 2022.
+5.	ORGANIS. Panorama do consumo de orgânicos no Brasil 2021. 2021. 34 slides, color. Disponível em: https://organis.org.br/pesquisa-consumidor-organico-2021/. Acesso em: 21 mar. 2022.
+6.	ONDEI, Vera. Brasileiros escolhem produtos orgânicos pela aparência e preço, mostra pesquisa Leia mais em: https://forbes.com.br/forbesagro/2022/01/brasileiros-escolhem-produtos-organicos-pela-aparencia-e-preco-mostra-pesquisa/. Forbes: Agro.  19 jan. 2022. Disponível em: https://forbes.com.br/forbesagro/2022/01/brasileiros-escolhem-produtos-organicos-pela-aparencia-e-preco-mostra-pesquisa/. Acesso em: 19 mar. 2022.
+7.	LIMA, Sandra Kitakawa; GALIZA, Marcelo; VALADARES, Alexandre; ALVES, Fabio. Produção e consumo de produtos orgânicos no Brasil. In: Instituto de Pesquisa Econômica Aplicada. Texto para discussão. Brasília: Ipea, 2020. p. 1-53. Disponível em: https://www.econstor.eu/bitstream/10419/240733/1/td-2538.pdf. Acesso em: 19 mar. 2022.
+8.	SIQUEIRA, André. Persona: o que é, como definir e por que criar uma para sua empresa [+ exemplos práticos e um gerador]. 2022. Disponível em: https://resultadosdigitais.com.br/marketing/persona-o-que-e/. Acesso em: 20 mar. 2022.
+9.	REHKOPF, Max. Histórias de usuários com exemplos e um template. 2022. Disponível em: https://www.atlassian.com/br/agile/project-management/user-stories. Acesso em: 20 mar. 2022.
+10.	DUARTE, Luiz. User Stories: descrição de requisitos que humanos entendem. Descrição de requisitos que humanos entendem. 2018. Disponível em: https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/. Acesso em: 20 mar. 2022.
 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/abnt/trabalhos-academicos/referencias/)
-> - [Referências Bibliográficas da ABNT](https://comunidade.rockcontent.com/referencia-bibliografica-abnt/)
