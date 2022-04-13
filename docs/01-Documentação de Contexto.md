@@ -1,6 +1,6 @@
 # Introdução
 
-Produtos orgânicos são aqueles produzidos de forma natural e sustentável, sem a adição de químicos ou estimulantes artificiais. São frequentemente associados à saúde e ao bem-estar, o que contribuiu para o aumento de sua procura por consumidores focados em um estilo de vida saudável.1,2,3 Em 2021, 31% dos brasileiros consumiram produtos orgânicos – um aumento de 12% em relação ao ano de 2019.[2]
+Produtos orgânicos são aqueles produzidos de forma natural e sustentável, sem a adição de químicos ou estimulantes artificiais. São frequentemente associados à saúde e ao bem-estar, o que contribuiu para o aumento de sua procura por consumidores focados em um estilo de vida saudável.[1,2,3] Em 2021, 31% dos brasileiros consumiram produtos orgânicos – um aumento de 12% em relação ao ano de 2019.[2]
 	
 O cenário é bastante promissor, mas apresenta grandes desafios. Ainda que os consumidores estejam inclinados à mudança de hábitos, há fatores restritivos que impactam negativamente o crescimento desse mercado: preços não acessíveis, dificuldade para encontrar os produtos, falta de conhecimento sobre ele, entre outros.[1,4]
 	 
@@ -19,15 +19,16 @@ Este projeto teve por objetivo geral criar um e-commerce social que permitirá a
 
 Os objetivos específicos são:
 
-•	Eliminar intermediários entre o campo e a cidade, aproximando o pequeno produtor do consumidor final por meio de um canal simples e acessível, no qual ele poderá ofertar seus produtos diretamente ao comprador.
+• Eliminar intermediários entre o campo e a cidade, aproximando o pequeno produtor do consumidor final por meio de um canal simples e acessível, no qual ele poderá ofertar seus produtos diretamente ao comprador.
 
-•	Dar visibilidade ao pequeno produtor e permitir que ele fidelize clientes por meio de assinaturas de produtos.
+• Dar visibilidade ao pequeno produtor e permitir que ele fidelize clientes por meio de assinaturas de produtos.
 
-•	Entregar produtos frescos e de alta qualidade de forma rápida e eficiente.
+• Entregar produtos frescos e de alta qualidade de forma rápida e eficiente.
 
-•	Mapear produtores e vendedores de orgânicos, permitindo ao consumidor localizá-los com facilidade. 
+• Mapear produtores e vendedores de orgânicos, permitindo ao consumidor localizá-los com facilidade. 
 
-•	Incentivar a agricultura orgânica e a produção artesanal brasileira.
+• Incentivar a agricultura orgânica e a produção artesanal brasileira.
+
 
 ## Justificativa
 
