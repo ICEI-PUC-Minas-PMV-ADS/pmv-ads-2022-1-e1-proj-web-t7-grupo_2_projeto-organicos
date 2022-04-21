@@ -10,7 +10,7 @@ A navegação geral contempla 3 telas e demonstra o caminho que o usuário segui
             
 ![image](https://user-images.githubusercontent.com/100173177/164562957-e653196d-7d30-4a12-a0c7-2582ef29239f.png)
 
-### Hope Page
+### Home Page
 A tela Home Page apresenta o componente de pesquisa que permite ao usuário indicar o local em que mora para buscar produtores próximos. No cabeçalho há um menu com as opções:  
 - **Sobre nós**, com informações sobre a companhia; 
 - **Contato**, com um formulário para envio de dúvidas, sugestões ou reclamações;
@@ -21,11 +21,12 @@ O rodapé apresenta o formulário de assinatura de newsletter e atalhos para mí
 ![image](https://user-images.githubusercontent.com/100173177/164562551-95f93280-7bf7-4554-8aab-893903e2c6a0.png)
 
 ### Sobre nós
-Sobre Nós é uma tela com informações gerais sobre o Feira em Casa. Há campos textuais para adição de informações sobre a instituição à esquerda e, à direita, para imagens.
+Tela com informações gerais sobre o Feira em Casa. Há campos textuais para adição de informações sobre a instituição à esquerda e, à direita, para imagens.
 
 ![image](https://user-images.githubusercontent.com/100173177/164562587-96735028-c038-4b7e-afe2-f6f82d62b813.png)
 
-Por fim, a tela **Contato** contém um formulário com campos de identificação e um campo para mensagem.
+### Contato
+A tela Contato contém um formulário com campos de identificação e um campo para mensagem.
 
 ![image](https://user-images.githubusercontent.com/100173177/164562618-3491771f-9c9d-4922-b2e7-fa0b1407d501.png)
 
@@ -35,21 +36,26 @@ O fluxo do consumidor contempla 7 telas e retrata o caminho que o consumidor seg
 
 ![image](https://user-images.githubusercontent.com/100173177/164563131-23786377-9497-4d46-8ae8-049515356756.png)
 
+### Área de Login do Consumidor
 Partindo da home page, o consumidor acessará a área de **Login** por meio da opção “Sou Consumidor”. O bloco central apresenta os campos “e-mail” e “senha” que receberão as informações do usuário já cadastrado.  O componente “Clique aqui...” direciona para a página de cadastro.
 
 ![image](https://user-images.githubusercontent.com/100173177/164563170-2386a58b-a0e4-428f-9a13-95d088444420.png)
 
+### Tela de Cadastro do Consumidor
 Caso não seja cadastrado, o usuário acessará a tela **Cadastro**, na qual encontram-se os campos para preenchimento com as credencias do cliente (nome, CPF, e-mail etc.).
 
 ![image](https://user-images.githubusercontent.com/100173177/164563219-6d7c9687-76a0-432d-a723-814d40fcad41.png)
 
+### Informações do Usuário
 Caso já seja cadastrado, o usuário entrará com suas credenciais e será redirecionado para página **Informações de Acesso**. A tela apresenta informações de acesso do cliente, bem como a opção para alteração de senha.
 
 ![image](https://user-images.githubusercontent.com/100173177/164563418-7d14c668-6a9d-4383-950f-6d753935c54d.png)
 
 No canto central esquerdo, temos a opção de adicionar ou trocar a foto de exibição. As opções de menu redirecionam para: 
-- Informações de acesso, já descritas no primeiro parágrafo. 
-- **Dados pessoais**, no qual são apresentados os dados do cliente, como nome, telefone, CPF etc.
+
+#### Dados pessoais
+
+Tela na qual são apresentados os dados do cliente, como nome, telefone, CPF etc.
 
 ![image](https://user-images.githubusercontent.com/100173177/164563456-18fe351e-74cf-4e47-afcc-563f2585fa23.png)
 
