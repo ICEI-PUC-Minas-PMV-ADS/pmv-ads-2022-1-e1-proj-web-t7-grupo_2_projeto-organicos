@@ -43,4 +43,15 @@ Caso não seja cadastrado, o usuário acessará a tela **Cadastro**, na qual enc
 
 Caso já seja cadastrado, o usuário entrará com suas credenciais e será redirecionado para página **Informações de Acesso**. A tela apresenta informações de acesso do cliente, bem como a opção para alteração de senha.
 
+![image](https://user-images.githubusercontent.com/100173177/164563418-7d14c668-6a9d-4383-950f-6d753935c54d.png)
+
+No canto central esquerdo, temos a opção de adicionar ou trocar a foto de exibição. As opções de menu redirecionam para: 
+- Informações de acesso, já descritas no primeiro parágrafo. 
+- **Dados pessoais**, no qual são apresentados os dados do cliente, como nome, telefone, CPF etc.
+
+![image](https://user-images.githubusercontent.com/100173177/164563456-18fe351e-74cf-4e47-afcc-563f2585fa23.png)
+
+- **Endereço**, com exibição do endereço cadastrado e a opção de alterá-lo.
+
+![image](https://user-images.githubusercontent.com/100173177/164563546-deb8561e-a4d9-4b88-bd6b-1381b41e4e36.png)
 
