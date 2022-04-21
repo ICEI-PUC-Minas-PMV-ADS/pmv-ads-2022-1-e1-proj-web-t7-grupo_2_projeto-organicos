@@ -45,5 +45,5 @@ Foram empregadas as seguintes ferramentas:
 - Editor de código: [Visual Studio Code](https://code.visualstudio.com/)
 - Ferramentas de comunicação: [Whatsapp](https://www.whatsapp.com) e [Microsoft Teams](https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software)
 - Ferramenta de desenho de tela (_wireframing_): [Marvelapp](https://marvelapp.com/)
-- Ferramenta de gerenciamento de projeto: [Sharepoint](https://sgapucminasbr.sharepoint.com/sites/Projeto-Grupo2619). 
+
 
