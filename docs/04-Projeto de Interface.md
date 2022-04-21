@@ -10,6 +10,7 @@ A navegação geral contempla 3 telas e demonstra o caminho que o usuário segui
             
 ![image](https://user-images.githubusercontent.com/100173177/164562957-e653196d-7d30-4a12-a0c7-2582ef29239f.png)
 
+### Hope Page
 A tela Home Page apresenta o componente de pesquisa que permite ao usuário indicar o local em que mora para buscar produtores próximos. No cabeçalho há um menu com as opções:  
 - **Sobre nós**, com informações sobre a companhia; 
 - **Contato**, com um formulário para envio de dúvidas, sugestões ou reclamações;
@@ -19,7 +20,8 @@ O rodapé apresenta o formulário de assinatura de newsletter e atalhos para mí
 
 ![image](https://user-images.githubusercontent.com/100173177/164562551-95f93280-7bf7-4554-8aab-893903e2c6a0.png)
 
-**Sobre Nós** é uma tela com informações gerais sobre o Feira em Casa. Há campos textuais para adição de informações sobre a instituição à esquerda e, à direita, para imagens.
+### Sobre nós
+Sobre Nós é uma tela com informações gerais sobre o Feira em Casa. Há campos textuais para adição de informações sobre a instituição à esquerda e, à direita, para imagens.
 
 ![image](https://user-images.githubusercontent.com/100173177/164562587-96735028-c038-4b7e-afe2-f6f82d62b813.png)
 
