@@ -22,8 +22,11 @@ A gestão do código fonte é baseada no Git Flow, um modelo que consiste no uso
 Estabeleceu-se o gerenciamento com base no SCRUM Agile – metodologia ágil amplamente difundida no desenvolvimento de softwares que prioriza a simplicidade, flexibilidade fluidez no gerenciamento de projetos. O SCRUM é aplicado na forma de ciclos rápidos, chamados de sprints, e possibilita a entrega de produtos de qualidade em menor tempo[1].
 
 Seguindo a organização de equipes do SCRUM, aos membros foram atribuídos os seguintes papéis:
+
 • Scrum Master: Cibeli Maria Munhoz
+
 • Product Owner: Aline de Moura
+
 • Equipe de desenvolvimento: Carlos Eduardo Pereira Marques, Cristian Balbi De Faria Junior, Leonardo Gonçalves Teles e Pablo Henrique de Morais.
 
 As reuniões diárias foram realizadas via WhatsApp, no grupo da equipe. Ocorreram também, via Microsoft Teams, encontros semanais com a professora Nathalia Assis Valentim para orientações e saneamento de dúvidas.
