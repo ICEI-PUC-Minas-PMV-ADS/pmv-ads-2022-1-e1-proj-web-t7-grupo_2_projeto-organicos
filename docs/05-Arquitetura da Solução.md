@@ -5,7 +5,6 @@ Nesta seção são apresentados os detalhes técnicos da solução criada pela e
 ## Diagrama de componentes
 
 ![image](https://user-images.githubusercontent.com/100173177/164561918-2355c1e3-99c1-40d2-8253-c05b230b8fa2.png)
-<center>Arquitetura da solução</center>
 
 A solução implementada conta com os seguintes módulos:
 - **Navegador**: Interface básica do sistema  
