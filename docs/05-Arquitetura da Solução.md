@@ -17,7 +17,7 @@ A solução implementada conta com os seguintes módulos:
      - **Perfil** - Resposável por armazenar o perfil registrado. Seja consumidor ou fornecedor. 
      - **Produtos** - Armazena os produtos que foram cadastrados pelo fornecedor. 
      
- - **Produtos API** - Plataforma que facilita ao cadastro dos produtos.
+ - **Produtos API** - Plataforma que facilita o cadastro dos produtos.
  - **Logística API** - Plataforma que permite que o usuário rastreie seu pedido.  
  - **NF API** - Plataforma responsável por emitir a nota fiscal e enviar para o e-mail do cliente.
  - **Marketing API** - Plataforma responsável por emitir a nota fiscal e enviar para o e-mail do cliente.
