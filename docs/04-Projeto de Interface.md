@@ -8,7 +8,7 @@ Para melhor compreensão, o fluxo de usuário da aplicação foi subdividido em 
 
 A navegação geral contempla 3 telas e demonstra o caminho que o usuário seguirá para obter informações sobre a aplicação ou entrar em contato com o suporte. 
 
-![image](https://user-images.githubusercontent.com/100173177/164562455-7f60c5c3-a066-4bfc-b6c9-a5734230c11d.png)
+Fluxo de Navegação Geral: ![image](https://user-images.githubusercontent.com/100173177/164562957-e653196d-7d30-4a12-a0c7-2582ef29239f.png)
 
 A tela Home Page apresenta o componente de pesquisa que permite ao usuário indicar o local em que mora para buscar produtores próximos. No cabeçalho há um menu com as opções:  
 - **Sobre nós**, com informações sobre a companhia; 
