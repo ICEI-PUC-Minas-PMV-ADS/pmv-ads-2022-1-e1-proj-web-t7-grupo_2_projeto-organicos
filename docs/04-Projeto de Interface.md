@@ -53,17 +53,21 @@ Caso já seja cadastrado, o usuário entrará com suas credenciais e será redir
 
 No canto central esquerdo, temos a opção de adicionar ou trocar a foto de exibição. As opções de menu redirecionam para: 
 
-#### Dados pessoais
+#### Dados Pessoais
 
 Tela na qual são apresentados os dados do cliente, como nome, telefone, CPF etc.
 
 ![image](https://user-images.githubusercontent.com/100173177/164563456-18fe351e-74cf-4e47-afcc-563f2585fa23.png)
 
-- **Endereço**, com exibição do endereço cadastrado e a opção de alterá-lo.
+#### Endereço
+
+Tela com exibição do endereço cadastrado e a opção de alterá-lo.
 
 ![image](https://user-images.githubusercontent.com/100173177/164563546-deb8561e-a4d9-4b88-bd6b-1381b41e4e36.png)
 
-- Meus pedidos, com histórico dos pedidos feitos pelo cliente, exibindo data de entrega e valor.
+#### Meus Pedidos
+
+Tel com histórico dos pedidos feitos pelo cliente, exibindo data de entrega e valor.
 
 ![image](https://user-images.githubusercontent.com/100173177/164563646-924412d0-1fea-4234-9313-b03e383ff2d4.png)
 
@@ -73,32 +77,43 @@ O fluxo do consumidor contempla 7 telas e demonstra o caminho que o produtor seg
 
 ![image](https://user-images.githubusercontent.com/100173177/164563685-c2e0d474-16ab-402a-8ab6-604bb17ac67c.png)
 
-Partindo a Home Page o produtor acessará a **área de Login** por meio da opção “Sou Produtor".
+### Área de Login
+Partindo a Home Page o produtor acessará a **área de Login** por meio da opção “Sou Produtor". O bloco central apresenta os campos “e-mail” e “senha” que receberão as informações do usuário já cadastrado.  O componente “Clique aqui...” direciona para a página de cadastro.
 
 ![image](https://user-images.githubusercontent.com/100173177/164563736-eb6f623a-2004-4862-b76c-a282ad9db423.png)
 
-O bloco central apresenta os campos “e-mail” e “senha” que receberão as informações do usuário já cadastrado.  O componente “Clique aqui...” direciona para a página de cadastro.
-Se o produtor não for cadastrado, será direcionado para **tela de cadastro**. A página apresenta um bloco central com formulário de cadastro para novos produtores. São solicitadas informações como nome, sobrenome, endereço e CNPJ. Logo abaixo do texto “O que você pode oferecer?” há uma lista suspensa com nichos de atuação pré-definidos. Os hiperlinks “Termo de uso” e “Política de privacidade” abrem pop-ups com os termos e políticas da instituição. Por fim, há um botão para finalização do cadastro.
+### Tela de Cadasro do Produtor
+Se o produtor não for cadastrado, será direcionado para tela de cadastro. A página apresenta um bloco central com formulário de cadastro para novos produtores. São solicitadas informações como nome, sobrenome, endereço e CNPJ. Logo abaixo do texto “O que você pode oferecer?” há uma lista suspensa com nichos de atuação pré-definidos. Os hiperlinks “Termo de uso” e “Política de privacidade” abrem pop-ups com os termos e políticas da instituição. Por fim, há um botão para finalização do cadastro.
 
 ![image](https://user-images.githubusercontent.com/100173177/164563779-4f1988fc-e92f-4055-adb5-430a5152fe40.png)
 
-Após o cadastro, o produtor será direcionado para a página **Informações de Perfil**. A mensagem inicial agradece a inscrição. Em seguida, há formulários para a personalização e autenticação de sua loja na plataforma:
+### Informações do Perfil
+
+Após o cadastro, o produtor será direcionado para a página Informações de Perfil. A mensagem inicial agradece a inscrição. Em seguida, há formulários para a personalização e autenticação de sua loja na plataforma:
 
 ![image](https://user-images.githubusercontent.com/100173177/164563843-bdc8c2e4-da77-4200-b5fe-9d2fbd860622.png)
 
-- A tela **Informações Públicas** permite a inclusão de fotos e informações de conhecimento público, como sua profissão, nome da propriedade etc.
+#### Informações Públicas
+
+- A tela permite a inclusão de fotos e informações de conhecimento público, como sua profissão, nome da propriedade etc.
 
 ![image](https://user-images.githubusercontent.com/100173177/164563867-53dfd9cf-1523-4295-9676-093258277c60.png)
 
-- **Informações privadas** contempla o envio da certificação de produtor, comprovante de identidade e registro comercial. O botão salvar envia os documentos anexados para a autenticação.
+#### Informações Privadas
+
+- Contempla o envio da certificação de produtor, comprovante de identidade e registro comercial. O botão salvar envia os documentos anexados para a autenticação.
 
 ![image](https://user-images.githubusercontent.com/100173177/164563882-f5d5d950-2add-48b0-a663-a7a3e64282f7.png)
-          
-- A tela **Adicionar Produtos** apresenta as opções “Produtos” e “Assinaturas”, com campos para adicionar fotos, nome, valor e outras informações referentes ao produto ou assinatura que será disponibilizado na loja. 
+
+#### Adicionar Produtos
+
+- A tela apresenta as opções “Produtos” e “Assinaturas”, com campos para adicionar fotos, nome, valor e outras informações referentes ao produto ou assinatura que será disponibilizado na loja. 
 
 ![image](https://user-images.githubusercontent.com/100173177/164563983-3d130dfe-96d9-4d14-8c7e-0bfb0b362449.png)
 
-Após o preenchimento, há uma opção para visualizar perfil, que apresenta um **preview da loja** com os produtos recém-adicionados.
+#### Preview da Loja
+
+Após o preenchimento, há uma opção para visualizar perfil, que apresenta um preview da loja com os produtos recém-adicionados.
 
 ![image](https://user-images.githubusercontent.com/100173177/164564043-11c9f74f-51d8-478a-af3e-ed70a4124b27.png)
 
@@ -108,29 +123,43 @@ O fluxo de compra inclui 8 telas, que vão da seleção da localidade à finaliz
 
 ![image](https://user-images.githubusercontent.com/100173177/164564077-2311d271-abb1-4a65-98e4-7fcf9d282788.png)
 
-Ao digitar sua localização na caixa “Onde você mora?”, o cliente é direcionado para um **mapa** que informa quais produtores têm produtos disponíveis para retirada e quais entregam na casa. 
+### Encontre um Produtor
+
+Ao digitar sua localização na caixa “Onde você mora?”, o cliente é direcionado para um mapa que informa quais produtores têm produtos disponíveis para retirada e quais entregam na casa. 
 
 ![image](https://user-images.githubusercontent.com/100173177/164564121-89d06f40-1b30-4674-a657-d3fa547e8793.png)
+
+### Informações do Produtor
 
 Ao selecionar um produtor, um **pop-up** aponta onde e quando o produtor está operando. 
 
 ![image](https://user-images.githubusercontent.com/100173177/164564142-0d7527b3-d760-46ce-9288-878def992f9e.png)
 
-O botão “Ir para a loja” redireciona para a **loja do produtor**. No bloco à esquerda vê-se a imagem do produtor e sua descrição. No bloco central são listados as assinaturas e produtos à venda, com botões para adicionar ou remover unidades e adicioná-los ao carrinho. 
+### Loja do Produtor
+
+O botão “Ir para a loja” redireciona para a loja do produtor. No bloco à esquerda vê-se a imagem do produtor e sua descrição. No bloco central são listados as assinaturas e produtos à venda, com botões para adicionar ou remover unidades e adicioná-los ao carrinho. 
 
 ![image](https://user-images.githubusercontent.com/100173177/164564245-5591456f-10b1-48c4-928e-dd376429cdb9.png)
+
+### Detalhes do Produto
 
 A seleção de um produto exibe uma tela de informações com fotos em maior escala, descrição do item, o valor, escolha de quantidade e adição ao carrinho.
 
 ![image](https://user-images.githubusercontent.com/100173177/164564272-2f73f583-c1ee-4eec-b306-c9f7628a392a.png)
 
-O **carrinho** do cliente aparece na forma de pop-up e apresenta as opções “Adicionar mais produtos”, “Remover produtos ou “Finalizar compra”.
+### Carrinho de Compras
+
+O carrinho do cliente aparece na forma de pop-up e apresenta as opções “Adicionar mais produtos”, “Remover produtos ou “Finalizar compra”.
 
 ![image](https://user-images.githubusercontent.com/100173177/164564318-c5f355a1-aa61-41e9-b5cf-ff320e0360d5.png)
 
-O botão “Finalizar compra” redireciona para a **forma de pagamento**. A tela apresenta campos para preenchimento do endereço de entrega; opções de recebimento de compra e os botões com as 2 formas de pagamento utilizadas. O sistema será integrado com o Mercado Pago.  
+### Tela de Pagamento
+
+O botão “Finalizar compra” redireciona para a forma de pagamento. A tela apresenta campos para preenchimento do endereço de entrega; opções de recebimento de compra e os botões com as 2 formas de pagamento utilizadas. O sistema será integrado com o Mercado Pago.  
 
 ![image](https://user-images.githubusercontent.com/100173177/164564337-5a89f2af-f8fe-407f-b617-a5ad795bb5b4.png)
+
+### Confirmação de Compra
 
 A confirmação de compra aparece na forma de um pop-up com a mensagem “Compra realizada com sucesso!”. Há 2 botões que redirecionam para compras ou perfil, respectivamente.
 
