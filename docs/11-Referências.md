@@ -10,4 +10,7 @@
 8.	SIQUEIRA, André. Persona: o que é, como definir e por que criar uma para sua empresa [+ exemplos práticos e um gerador]. 2022. Disponível em: https://resultadosdigitais.com.br/marketing/persona-o-que-e/. Acesso em: 20 mar. 2022.
 9.	REHKOPF, Max. Histórias de usuários com exemplos e um template. 2022. Disponível em: https://www.atlassian.com/br/agile/project-management/user-stories. Acesso em: 20 mar. 2022.
 10.	DUARTE, Luiz. User Stories: descrição de requisitos que humanos entendem. Descrição de requisitos que humanos entendem. 2018. Disponível em: https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/. Acesso em: 20 mar. 2022.
+11. ATLASSIAN. Fluxo de trabalho de Gitflow. 2022. Disponível em: https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow. Acesso em: 21 abr. 2022.
+12.	FIA (Brasil). SCRUM: o que é e como aplicar a metodologia ágil para gestão? Blog Fia. 21 fev. 2022. Disponível em: https://fia.com.br/blog/scrum/#. Acesso em: 21 abr. 2022.
+13.	FARIAS, Gabriel Sá e. Fluxo de usuário (User Flow): o que é? como fazer? Medium: 7 bits.  25 jul. 2018. Disponível em: https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534. Acesso em: 21 abr. 2022
 
