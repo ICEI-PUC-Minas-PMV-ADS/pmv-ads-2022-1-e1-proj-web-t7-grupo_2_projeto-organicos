@@ -36,12 +36,12 @@ O fluxo do consumidor contempla 7 telas e retrata o caminho que o consumidor seg
 
 ![image](https://user-images.githubusercontent.com/100173177/164563131-23786377-9497-4d46-8ae8-049515356756.png)
 
-### Área de Login do Consumidor
+### Login do Consumidor
 Partindo da home page, o consumidor acessará a área de **Login** por meio da opção “Sou Consumidor”. O bloco central apresenta os campos “e-mail” e “senha” que receberão as informações do usuário já cadastrado.  O componente “Clique aqui...” direciona para a página de cadastro.
 
 ![image](https://user-images.githubusercontent.com/100173177/164563170-2386a58b-a0e4-428f-9a13-95d088444420.png)
 
-### Tela de Cadastro do Consumidor
+### Cadastro do Consumidor
 Caso não seja cadastrado, o usuário acessará a tela **Cadastro**, na qual encontram-se os campos para preenchimento com as credencias do cliente (nome, CPF, e-mail etc.).
 
 ![image](https://user-images.githubusercontent.com/100173177/164563219-6d7c9687-76a0-432d-a723-814d40fcad41.png)
@@ -77,12 +77,13 @@ O fluxo do consumidor contempla 7 telas e demonstra o caminho que o produtor seg
 
 ![image](https://user-images.githubusercontent.com/100173177/164563685-c2e0d474-16ab-402a-8ab6-604bb17ac67c.png)
 
-### Área de Login
+### Login do Produtor
 Partindo a Home Page o produtor acessará a **área de Login** por meio da opção “Sou Produtor". O bloco central apresenta os campos “e-mail” e “senha” que receberão as informações do usuário já cadastrado.  O componente “Clique aqui...” direciona para a página de cadastro.
 
 ![image](https://user-images.githubusercontent.com/100173177/164563736-eb6f623a-2004-4862-b76c-a282ad9db423.png)
 
-### Tela de Cadasro do Produtor
+### Cadastro do Produtor
+
 Se o produtor não for cadastrado, será direcionado para tela de cadastro. A página apresenta um bloco central com formulário de cadastro para novos produtores. São solicitadas informações como nome, sobrenome, endereço e CNPJ. Logo abaixo do texto “O que você pode oferecer?” há uma lista suspensa com nichos de atuação pré-definidos. Os hiperlinks “Termo de uso” e “Política de privacidade” abrem pop-ups com os termos e políticas da instituição. Por fim, há um botão para finalização do cadastro.
 
 ![image](https://user-images.githubusercontent.com/100173177/164563779-4f1988fc-e92f-4055-adb5-430a5152fe40.png)
