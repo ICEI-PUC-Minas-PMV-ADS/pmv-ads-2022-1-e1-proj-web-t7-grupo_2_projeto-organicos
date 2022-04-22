@@ -2,7 +2,7 @@
 # Projeto de Interface
 
 A interface foi projetada com ênfase na experiência do usuário. A proposta da plataforma é ser simples, acessível e intuitiva.
-Para melhor compreensão, o fluxo de usuário da aplicação foi subdividido em navegação geral, fluxo de compra, fluxo do consumidor e fluxo do produtor. A criação de user flows permite o mapeamento das interações entre o usuário e a aplicação desenvolvida. 
+Para melhor compreensão, o fluxo de usuário da aplicação foi subdividido em navegação geral, fluxo de compra, fluxo do consumidor e fluxo do produtor. A criação de user flows permite o mapeamento das interações entre o usuário e a aplicação desenvolvida[13]. 
 
 ## Fluxo de Navegação Geral
 
