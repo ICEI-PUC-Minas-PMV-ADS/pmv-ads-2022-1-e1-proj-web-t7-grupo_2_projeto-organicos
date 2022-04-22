@@ -17,7 +17,7 @@ Os artefatos do projeto Feira em Casa foram desenvolvidos nas plataformas GitHub
 
 A gestão do código fonte é baseada no Git Flow, um modelo que consiste no uso de ramificações de recursos e várias ramificações primárias[11]. Assim, as manutenções do código serão realizadas em diferentes branches e cada novo recurso residirá na sua própria ramificação. 
 
-![image]https://codigomaromba.files.wordpress.com/2019/01/gitflow-1.png
+![image](https://codigomaromba.files.wordpress.com/2019/01/gitflow-1.png)
 
 ## Gerenciamento de Projeto
 
