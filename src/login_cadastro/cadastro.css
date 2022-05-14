@@ -1,0 +1,404 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    background-color: #dfe9ed;
+}
+
+
+/* -------------------------Box de cadastro---------------- */
+
+
+
+#box{
+  color: #5C8C45;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #FFFDF8;
+  padding: 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 30px;
+}
+
+#title{
+  color: #3E160C;  
+  font-family: 'Grand Hotel', cursive; 
+  position: relative;
+  top: -30px;
+  font-size: 50px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+#first_name{
+    position: relative;
+    top: -60px;
+    font-size: 15px;
+    background-color: #ffff;
+    padding: 10px 20px ;
+    border: 2px solid #5C8C45;
+    border-radius: 15px;
+    color:#5C8C45;
+    width: 450px;
+}
+
+#surname{
+  position: relative;
+  top: -60px;
+  font-size: 15px;
+  background-color: #ffff;
+  padding: 10px 20px ;
+  border: 2px solid #5C8C45;
+  border-radius: 15px;
+  color:#5C8C45;
+  width: 450px;
+}
+
+
+#cpf{
+  position: relative;
+  top: -60px;
+  font-size: 15px;
+  background-color: #ffff;
+  padding: 10px 20px ;
+  border: 2px solid #5C8C45;
+  border-radius: 15px;
+  color:#5C8C45;
+  width: 450px;
+}
+
+#phone{
+  position: relative;
+  top: -60px;
+  font-size: 15px;
+  background-color: #ffff;
+  padding: 10px 20px ;
+  border: 2px solid #5C8C45;
+  border-radius: 15px;
+  color:#5C8C45;
+  width: 450px;
+}
+
+
+#birthDate{
+  position: relative;
+  top: -60px;
+  font-size: 15px;
+  background-color: #ffff;
+  padding: 10px 20px ;
+  border: 2px solid #5C8C45;
+  border-radius: 15px;
+  color:#5C8C45;
+  width: 450px;
+}
+
+#gender_border{
+  position: relative;
+  top: -60px;
+  font-size: 15px;
+  background-color: #ffff;
+  padding: 19px 20px ;
+  border: 2px solid #5C8C45;
+  border-radius: 15px;
+  color:#5C8C45;
+  width: 450px;
+}
+
+#genderM {
+  position: relative;
+  top: -99px;
+  left: 90px;
+}
+
+#textM{
+  position: relative;
+  top: -118px;
+  left: 110px;
+}
+#genderF{
+  position: relative;
+  top: -137px;
+  left: 190px;
+}
+
+#textF{
+  position: relative;
+  top: -156px;
+  left: 210px;
+}
+
+#genderO{
+  position: relative;
+  top: -175px;
+  left: 290px;
+}
+#textO{
+  position: relative;
+  top: -194px;
+  left: 310px;
+}
+
+
+#mail {
+  position: relative;
+  top: -175px;
+  font-size: 15px;
+  background-color: #ffff;
+  padding: 10px 20px ;
+  border: 2px solid #5C8C45;
+  border-radius: 15px;
+  color:#5C8C45;
+  width: 450px;
+}
+
+#password{
+  position: relative;
+  top: -175px;
+  font-size: 15px;
+  background-color: #ffff;
+  padding: 10px 20px ;
+  border: 2px solid #5C8C45;
+  border-radius: 15px;
+  color:#5C8C45;
+  width: 450px;
+}
+
+#password2{
+  position: relative;
+  top: -175px;
+  font-size: 15px;
+  background-color: #ffff;
+  padding: 10px 20px ;
+  border: 2px solid #5C8C45;
+  border-radius: 15px;
+  color:#5C8C45;
+  width: 450px;
+}
+
+#text1{
+  position: relative;
+  top: -180px;
+  left: 90px;
+  font-size: 15px;
+  color: #3E160C;
+  font-weight: bold;
+}
+
+#termsPolitics{
+  position: relative;
+  top: -190px;
+  left: 110px;
+  font-size: 15px;
+  color: #3E160C;
+  font-weight: bold;
+}
+
+#term{
+  color: #F26E24;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#politics{
+  color: #F26E24;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#registerButton{
+  position: relative;
+  background-color: #F26E24;
+  border: none;
+  padding: 10px;
+  width: 60%;
+  top: -185px;
+  left: 100px;
+  border-radius: 16px;
+  color: #fff;
+  font-size: 15px;
+}
+
+#registerButton:hover{
+  background-color: rgb(111, 143, 111);
+  }
+
+  /* -------------------------Header------------------------- */
+
+#header {
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  background-color: #dfe9ed;
+  padding: 20px 10px;
+  width: 100%;
+  z-index: 10;
+
+}
+
+nav a {
+  
+  float: right;
+  color: #ca6228;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-family: 'Grand Hotel', cursive;
+  font-size: 25px;
+  line-height: 25px;
+  border-radius: 4px;
+  
+}
+
+#header nav{
+  width: fit-content;
+  margin: 0 auto; 
+
+}
+
+.header_div{
+  position: relative;
+}
+
+#header a:hover {
+  background-color: rgba(11, 248, 3, 0);
+  color: #6aa52d;
+}
+
+#header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+#header-left {
+  float: left;
+}
+
+#header_logo{
+  position: absolute;
+  top: -18px;
+  width: 100px;
+  height: 100px;
+  left: 100px;
+}
+
+/* -------------------------Section------------------------ */
+
+section{
+  height: 110vh;
+}
+
+
+/* -------------------------Footer------------------------- */
+
+#footer{
+  bottom: 0;
+  overflow: hidden;
+  background-color: #9ab88c;
+  padding: 20px 10px;
+  height: 10vh;
+  width: 100%
+}
+.container_footer{
+  position: relative
+}
+ 
+#footer_logo{
+  position: absolute;
+  top: 0%;
+  width: 100px;
+  height: 100px;
+  left: 100px;
+}
+
+#cart{
+  position: absolute;
+  right: 100px;
+  top: 10px;
+  width: 50px;
+  height: 50px;
+
+}
+
+#newsletter{
+  right: 344px;
+  position: absolute;
+  top: -5px;  
+  color: #5C8C45;
+}
+
+
+.contato{
+  position: absolute;
+  left: 225px;
+  top: 25px;
+}
+
+#footer a:hover {
+  background-color: rgba(11, 248, 3, 0);
+  color: #6aa52d;
+}
+
+.contato a{
+  font-size: 25px;
+  top: 0%;
+  color: #ca6228;
+  font-family: 'Grand Hotel', cursive;
+  text-decoration: none;  
+}
+
+.button{
+  right: 160px;
+  position: absolute;
+  top: 20px;
+  background-color: #ffff;
+  padding: 10px 20px ;
+  border: 2px solid #ffff;
+  border-radius: 15px;
+  color:#5C8C45;
+}
+
+
+#emailnews{
+  right: 300px;
+  position: absolute;
+  top: 20px;
+  background-color: #ffff;
+  padding: 10px 20px ;
+  border: 2px solid #ffff;
+  border-radius: 15px;
+  color:#5C8C45;
+}
+
+#email::placeholder{
+  top: 0;  
+  color: #5C8C45;
+}
+.facebook_icon{
+  position: absolute;
+  right: 463px;
+  top: 68px;
+  width: 50px;
+  height: 50px;
+}
+
+#insta_icon{
+  position: absolute;
+  right: 403px;
+  top: 68px;
+  width: 50px;
+  height: 50px;
+}
+
+#gplus_icon{
+  position: absolute;
+  right: 343px;
+  top: 68px;
+  width: 50px;
+  height: 50px;
+}
+
