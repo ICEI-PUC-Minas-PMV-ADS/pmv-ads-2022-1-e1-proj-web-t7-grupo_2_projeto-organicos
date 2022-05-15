@@ -9,17 +9,20 @@ body{
 
 
 
+
 #box{
   color: #5C8C45;
   position: absolute;
+  z-index: -1;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
   background-color: #FFFDF8;
-  padding: 20px;
-  margin: 5px;
+  padding: 15px;
+  margin-top: 200px;
   border: none;
   border-radius: 30px;
+  height: 750px;
 }
 
 #title{
@@ -289,7 +292,8 @@ nav a {
 /* -------------------------Section------------------------ */
 
 section{
-  height: 110vh;
+  
+  height: 140vh;
 }
 
 
