@@ -5,13 +5,14 @@ body{
   /* -------------------------Section------------------------ */
   
   section{
-      height: 110vh;
-      overflow-x: hidden;
+    height: 110vh;
+      overflow-x:hiiden;
     }
   
     /*----------Conteúdo: barra de busca e estilizações----------*/
   
   .container-content {
+      
       width: 20%; /* define a largura do campo de busca */ 
       position: relative;  
       left: 100px;
@@ -67,6 +68,7 @@ body{
     /* -------------------------Header------------------------- */
     
     #header {
+      
       position: fixed;
       top: 0;
       overflow: hidden;
