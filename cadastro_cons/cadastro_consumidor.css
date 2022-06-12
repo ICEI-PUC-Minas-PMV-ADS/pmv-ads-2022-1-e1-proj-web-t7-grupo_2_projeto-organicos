@@ -2,6 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0%;
     background-color: #dfe9ed;
+    overflow-x: hidden;
 }
 
 
@@ -9,18 +10,15 @@ body{
 
 
 
-
 #box{
   color: #5C8C45;
   position: absolute;
-  z-index: -1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  top: 30%;
+  left: 45%;
+  transform: translate(-20%,-20%);
   background-color: #FFFDF8;
   padding: 15px;
-  margin-top: 200px;
-  margin-bottom:200px;
+  margin: none;
   border: none;
   border-radius: 30px;
   height: 750px;
@@ -293,8 +291,7 @@ nav a {
 /* -------------------------Section------------------------ */
 
 section{
-  
-  height: 140vh;
+  height: 110vh;
 }
 
 
@@ -302,14 +299,14 @@ section{
 
 #footer{
   bottom: 0;
-  overflow:hidden;
+  overflow: hidden;
   background-color: #9ab88c;
-  padding: 20px 15px;
-  height: 15vh;
-  width: 100%;
+  padding: 20px 10px;
+  height: 10vh;
+  width: 100%
 }
 .container_footer{
-  position: relative;
+  position: relative
 }
  
 #footer_logo{
@@ -406,5 +403,4 @@ section{
   width: 50px;
   height: 50px;
 }
-
 

@@ -5,72 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/img/icon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="/cadastro_cons/cadastro_Consumidor.css">
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
     <link rel= "preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
-    <script src="cadastro.js"> </script>
     <title>Cadastro - Feira em Casa!</title>   
 </head>
-<header id="header">  
-    <div class="header_div">
-        <img src="/img/logo_cabecalho.png" alt="Logo Cabeçalho" id = "header_logo">
-        <a href="null"><img src="/img/cart.png" id="cart" alt=""></a>
-        <nav>
-             <a href="login.html" id="souconsumidor">Sou Consumidor</a>
-             <a href="login.html" id="souprodutor">Sou Produtor</a> 
-             <a href="null" id="sobrenos">Sobre Nós</a> 
-             <a href="null" id="contato">Contato</a>  
-             <a href="/homepage.html" id="home_button">Home</a>
-        </nav>
-    </div>
-</header>
 
 <body>
-    
+    <header id="header">  
+        <div class="header_div">
+            <img src="/img/logo_cabecalho.png" alt="Logo Cabeçalho" id = "header_logo">
+            <a href="/carrinho/carrinho.html"><img src="/img/cart.png" id="cart" alt=""></a>
+            <nav>
+                <a href="/login_consumidor/login_Consumidor.html" id="souconsumidor">Sou Consumidor</a>
+                <a href="/login_produtor/login_Produtor.html" id="souprodutor">Sou Produtor</a> 
+                    <a href="/sobre_nos/sobrenos.html" id="sobrenos">Sobre Nós</a> 
+                    <a href="/pagina_cont/contato.html" id="contato">Contato</a> 
+                    <a href="/homepage/homepage.html" id="home_button">Home</a>
+            </nav>
+        </div>
+    </header>
 
-<section>  
-     
+<section>    
 
     <fieldset id="box">
 
         <h1 id="title">Cadastre-se</h1>
-    
-    
-        <p><input id="first_name" type="text" placeholder="Nome*" required></p>
-    
+        <p><input id="first_name" type="text" placeholder="Nome*"></p>
         <p><input id="surname" type="text" placeholder="Sobrenome*"></p>
-
         <p><input id="cpf" type="text" placeholder="CPF*"></p>
-
         <p><input id="phone" type="tel" placeholder="Telefone*" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"></p>
-
         <p><input id="birthDate" type="text" placeholder="Data de Nascimento*"></p>
-
         <div id="gender_border">Gênero:</div>
                 <input id="genderM" type="checkbox" placeholder="Gênero"><div id="textM">Masculino</div>
                 <input id="genderF" type="checkbox" placeholder="Gênero"><div id="textF">Feminino</div>
-                <input id="genderO" type="checkbox" placeholder="Gênero"><div id="textO">Outro</div>   
-
+                <input id="genderO" type="checkbox" placeholder="Gênero"><div id="textO">Outro</div>        
         <p><input id="mail" type="email" placeholder="E-mail*"></p>
-
         <p><input id="password" type="password" placeholder="Senha*"></p>
-
         <p><input id="password2" type="password" placeholder="Confirmar senha*"></p>
-
         <p id="text1">Ao clicar em "Cadastre-se" você aceita nossos</p>
         <p id="termsPolitics"><a href="" id="term">Termo de uso</a> e <a href="" id="politics">Políticas de Privacidade</a></p>
-
-        <button onclick= 'cadastrar()' id="registerButton" >Cadastre-se </button>
-        
+        <a href="/produto_detalhado/produto-detalhado.html"><button type="submit" name="submit" id="registerButton">Cadastre-se </button></a>
 
     </fieldset>
-    
 </section>
 
-
-</body>
-<footer id="footer"> <!--Rodapé-->
+<footer id="footer">
     <div class="container_footer">
         <img src="/img/logo_rodape.png" alt="Logo Rodapé" id="footer_logo">
         <img src="/img/face.png" class="facebook_icon"alt="">
@@ -89,4 +70,5 @@
         </div>
     </div>
 </footer>
+</body>
 </html>

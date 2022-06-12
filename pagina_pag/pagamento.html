@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="pagamento.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+    <title>Feira em Casa - Seu e-commerce de orgânicos!</title>
+
+</head>
+
+<body>
+    <!--Cabeçalho-->
+    <header id="header">  
+        <div class="header_div">
+            <img src="/img/logo_cabecalho.png" alt="Logo Cabeçalho" id = "header_logo">
+            <a href="/carrinho/carrinho.html"><img src="/img/cart.png" id="cart" alt=""></a>
+            <nav>
+                <a href="/login_consumidor/login_Consumidor.html" id="souconsumidor">Sou Consumidor</a>
+                <a href="/login_produtor/login_Produtor.html" id="souprodutor">Sou Produtor</a> 
+                    <a href="/sobre_nos/sobrenos.html" id="sobrenos">Sobre Nós</a> 
+                    <a href="/pagina_cont/contato.html" id="contato">Contato</a> 
+                    <a href="/homepage/homepage.html" id="home_button">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <!--Conteúdo-->
+    <section>
+
+        <div class="tab">
+            <button id="tabPadrao" class="tab-button" onclick="abrirTab(event, 'entregar')">Entregar em casa</button>
+            <button class="tab-button" onclick="abrirTab(event, 'buscar')">Buscar no local</button>
+         </div>
+     
+         <div id="entregar" class="conteudo">
+             <p class="paragrafo">Selecione um endereço para entrega:</p>
+             <p><input class="marcador" type="text" placeholder="CEP*"></p>
+             <p><input class="marcador" type="text" placeholder="Cidade*"></p>
+             <p><input class="marcador" type="text" placeholder="Bairro*"></p>
+             <p><input class="marcador" type="text" placeholder="Rua*"></p>
+             <p><input class="marcador" type="text" placeholder="Número*"></p>
+             <p><input class="marcador" type="text" placeholder="Complemento*"></p>
+             <p class="paragrafo">Qual o melhor dia de receber sua compra?</p>
+             <select name="select">
+                <option value="valor1" selected>Segunda-feira (Entre 10h e 12h)</option>
+                <option value="valor2">Quinta-feira (Entre 10h e 12h)</option>
+              </select>
+             <p class="paragrafo">Como você deseja efetuar o pagamento?</p>
+             <select name="select">
+                <option value="valor2" selected>Pagamento por Pix</option>
+                <option value="valor3">Mercado Pago</option>
+              </select>
+              <a href="/confirmacao_pag/confirmacao-pag.html"><button>Finalizar Compra</button></a>
+         </div>
+     
+         <div id="buscar" class="conteudo">
+             <p class="paragrafo">Qual o melhor dia para buscar sua compra?</p>
+             <select name="select2">
+                <option value="valor2" selected>Segunda-feira (Entre 10h e 12h)</option>
+                <option value="valor3">Quinta-feira (Entre 10h e 12h)</option>
+              </select>
+              <div class="espaco"></div>
+             <a href="/confirmacao_pag/confirmacao-pag.html"><button>Finalizar Compra</button></a>
+         </div>
+
+         <script>
+
+            document.getElementById('tabPadrao').click();
+
+             function abrirTab(event, idTab) {
+
+                var conteudos = document.getElementsByClassName('conteudo');
+                for (var i = 0; i < conteudos.length; i++) {
+                    conteudos[i].style.display = 'none';
+                }
+
+                var tabs = document.getElementsByClassName('tab-button');
+                for (var i = 0; i < tabs.length; i++) {
+                    tabs[i].className = tabs[i].className.replace('ativo', '') ;
+                }
+
+                 document.getElementById(idTab).style.display = 'block';
+                 event.currentTarget.className += ' ativo';
+             }
+         </script>
+    </section>
+
+    <footer id="footer">
+        <div class="container_footer">
+            <img src="/img/logo_rodape.png" alt="Logo Rodapé" id="footer_logo">
+            <img src="/img/face.png" class="facebook_icon"alt="">
+    
+            <img src="/img/insta.png" alt="Instagram Icon" id="insta_icon">
+            <img src="/img/gplus.png" alt="Google Plus Icon" id="gplus_icon">
+            
+            <label for="newsletter" id="newsletter">Assine nossa Newsletter!</label>
+            <input type="email" id="emailnews" name="email" placeholder="E-mail">                
+            <input type="submit" class = "button" value = "Inscreva-se!">
+                
+                    
+            <div class="contato">
+                <a href="null">Sobre Nós</a> <br>
+                <a href="null">Contato</a>
+            </div>
+        </div>
+    </footer>   
+</body>
+
+</html>

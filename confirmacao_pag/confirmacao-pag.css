@@ -1,87 +1,57 @@
 body {
   margin: 0%;
   background-color: #dfe9ed;
-}
-
-/* -------------------------Section------------------------ */
-
-section {
-  height: 110vh;
   overflow-x: hidden;
 }
 
 /*----------Conteúdo: barra de busca e estilizações----------*/
 
-.container-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 20%;
-  /* define a largura do campo de busca */
-  position: relative;
-  left: 200px;
-  position: absolute;
-  top: 400px;
-}
-
-label.busca {
-  display: block;
-  font-size: 40px;
-  top: 0%;
-  color: #ca6228;
-  font-family: 'Grand Hotel', cursive;
-  left: 200px;
-  position: relative;
-  top: 280px;
-}
-
-.location {
-  outline: none;
-  width: 100%;
-  background-color: #ffff;
-  padding: 10px 20px;
-  border: 2px solid #4F62B4;
-  border-radius: 15px;
-  color: #4F62B4;
-  font-family: 'Rubik', sans-serif;
-}
-
-.location::placeholder {
-  top: 0;
-  color: #4F62B4;
-  font-weight: bold;
-}
-
-.location,
-#search {
-  padding: 10px;
-}
-
-#search {
-  position: absolute;
-  top: 400;
-  left: 250px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  float: left;
-}
-
-/*background*/
-
-.image-fundo{
+.imagefundo {
+  padding: 150px 0 0 0;
+  background-image: url('/img/image-fundo.png');
   background-size: 100%;
   background-position: bottom;
-  background-image: url('/img/image-fundo.png');
   background-repeat: no-repeat;
 }
 
-.image-bg{
-  background-size: 60%;
-  background-position: bottom 10px right 0px;
-  background-image: url('/img/bg.png');
+.imagembg {
+  background-size: 50%;
+  background-position: bottom;
+  background-image: url('/img/image-pag.png');
   background-repeat: no-repeat;
+  height: 700px;
+}
+
+.mensagem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #FFFDF8;
+  border-radius: 40px;
+  font-family: Rubik, sans-serif;
+  font-size: 20px;
+  font-weight: 200px;
+  color: #3E160C;
+  padding: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: center;
+}
+
+.mensagem button {
+  background-color: #ca6228;
+  border: none;
+  font-family: Rubik, sans-serif;
+  color: #FFFDF8;
+  padding: 10px 40px;
+  font-size: 15px;
+  border-radius: 15px;
+}
+
+.button-conteudo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 /* -------------------------Header------------------------- */

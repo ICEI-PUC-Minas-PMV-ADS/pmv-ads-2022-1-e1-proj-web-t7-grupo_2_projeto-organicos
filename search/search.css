@@ -1,0 +1,388 @@
+body{
+    margin: 0%;
+    background-color: #dfe9ed;
+    overflow-x: hidden;
+    
+  }
+
+  section{
+    height: 140vh;
+    overflow-x: hidden;
+  }
+
+#produtor{
+    top: 150px;
+    width: 410px;
+    height: 29px;
+    left: 41%;
+    position: relative;
+    text-align: center;
+    font-family: 'Grand Hotel', cursive;
+    color: #4F62B4;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;   
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+  }
+
+  #rectangle{
+    position: absolute;
+    width: 1700px;
+    height: 900px;
+    left: 5%;
+    top: 225px;
+    z-index: 1;    
+    background: #FFFDF8;
+    border-radius: 40px;
+  }
+
+  #text1{
+    position: absolute;
+    width: 433px;
+    height: 70px;
+    left: 136px;
+    top: 210px;
+    z-index: 1;    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;    
+    display: flex;
+    align-items: flex-end;
+    
+    color: #3E160C;
+  }
+
+  #search_field{
+    width: 60%; /* define a largura do campo de busca */ 
+    position: relative;  
+    left: 120px;
+    position: absolute;
+    top: 300px;
+    z-index: 1;
+  }
+
+  .location {
+    width: 100%;
+    background-color: #ffff;
+    padding: 10px 20px ;
+    border: 2px solid #4F62B4;
+    border-radius: 15px;
+    color: #4F62B4;
+    }
+    
+    .location::placeholder{
+    top: 0;  
+    color: #4F62B4;
+    font-weight: bold;
+    } 
+
+  #search {
+    position: absolute;   
+    top: 10px; 
+    left: 1070px;
+    background: none; 
+    border: none;
+  }
+
+#button1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+    border: none;
+    position: absolute;
+    width: 220px;
+    height: 39px;
+    left: 1250px;
+    top:300px;
+    background: #F26E24;
+    border-radius: 16px;
+    color: #ffffff;
+    z-index: 1;
+}
+
+#button1:hover{
+    background-color: rgb(111, 143, 111);
+}
+
+#button2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+    border: none;
+    position: absolute;
+    width: 220px;
+    height: 39px;
+    left: 1480px;
+    top:300px;
+    background: #F26E24;
+    border-radius: 16px;
+    color: #ffffff;
+    z-index: 1;
+}
+
+#button2:hover{
+    background-color: rgb(111, 143, 111);
+}
+
+#maps{
+    top: 350px;
+    position: relative;
+    z-index: 1;
+    left: 15%;
+}
+
+#rectangle_pop{
+    box-sizing: border-box;
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    left: 1200px;
+    top: 525px;
+    background: #FFFDF8;
+    border: 1px solid #5C8C45;
+    border-radius: 40px;
+    z-index: 1;
+}
+
+#pop_up_text{
+    position: absolute;
+    left: 1350px;
+    top: 700px;
+    z-index: 1;    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;    
+    display: flex;
+    align-items: flex-end;
+    color: #3E160C;
+}
+
+#pop_up_text_tittle{
+    position: absolute;
+    left: -80px;
+    top: -170px; 
+    width: 250px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 6;
+    font-size: 24px;    
+    font-weight: bold;   
+    z-index: 1;
+    color: #3E160C;
+    
+}
+
+#pop_up_description{
+    position: absolute;
+    width: 300px;
+    height: 275px;
+    left: -120px;
+    top: -100px;
+    font-weight: bold;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    z-index: 1;
+    color: #3E160C;
+}
+
+#pop_up_button{
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+    border: none;
+    position: absolute;
+    width: 220px;
+    height: 39px;
+    left: 1250px;
+    top: 825px;
+    background: #F26E24;
+    border-radius: 16px;
+    color: #ffffff;
+    z-index: 1;
+
+}
+
+#pop_up_button:hover{
+    background-color: rgb(111, 143, 111);
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    background-color: #dfe9ed;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 10;
+  
+  }
+  
+  nav a {
+    
+    float: right;
+    color: #ca6228;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 25px;
+    line-height: 25px;
+    border-radius: 4px;
+    
+  }
+  
+  #header nav{
+    width: fit-content;
+    margin: 0 auto; 
+  
+  }
+  
+  .header_div{
+    position: relative;
+  }
+  
+  #header a:hover {
+    background-color: rgba(11, 248, 3, 0);
+    color: #6aa52d;
+  }
+  
+  #header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  #header-left {
+    float: left;
+  }
+  
+  #header_logo{
+    position: absolute;
+    top: -18px;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+  }
+  
+  #footer{
+    bottom: 0%;
+    overflow: hidden;
+    background-color: #9ab88c;
+    padding: 20px 10px;
+    height: 15vh;
+    width: 100%
+  }
+  .container_footer{
+    position: relative
+  }
+   
+  #footer_logo{
+    position: absolute;
+    top: 0%;
+    width: 100px;
+    height: 100px;
+    left: 100px;
+  }
+  
+  #cart{
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+  
+  }
+  
+  #newsletter{
+    right: 344px;
+    position: absolute;
+    top: -5px;  
+    color: #5C8C45;
+  }
+  
+  
+  .contato{
+    position: absolute;
+    left: 225px;
+    top: 25px;
+  }
+  
+  #footer a:hover {
+    background-color: rgba(11, 248, 3, 0);
+    color: #6aa52d;
+  }
+  
+  .contato a{
+    font-size: 25px;
+    top: 0%;
+    color: #ca6228;
+    font-family: 'Grand Hotel', cursive;
+    text-decoration: none;  
+  }
+  
+  .button{
+    right: 160px;
+    position: absolute;
+    top: 20px;
+    background-color: #ffff;
+    padding: 10px 20px ;
+    border: 2px solid #ffff;
+    border-radius: 15px;
+    color:#5C8C45;
+  }
+  
+  
+  #emailnews{
+    right: 300px;
+    position: absolute;
+    top: 20px;
+    background-color: #ffff;
+    padding: 10px 20px ;
+    border: 2px solid #ffff;
+    border-radius: 15px;
+    color:#5C8C45;
+  }
+  
+  #emailnews::placeholder{
+    top: 0;  
+    color: #5C8C45;
+  }
+  .facebook_icon{
+    position: absolute;
+    right: 463px;
+    top: 68px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  #insta_icon{
+    position: absolute;
+    right: 403px;
+    top: 68px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  #gplus_icon{
+    position: absolute;
+    right: 343px;
+    top: 68px;
+    width: 50px;
+    height: 50px;
+  }

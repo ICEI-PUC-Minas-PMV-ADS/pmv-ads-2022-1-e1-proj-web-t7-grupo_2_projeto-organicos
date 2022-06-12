@@ -5,25 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/img/icon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="login_Produtor.css">
     <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
     <link rel= "preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap" rel="stylesheet">
-    
-    
-    <title>Login - Feira em Casa!</title>
+    <title>Login - Feira em Casa</title>
 </head>
 <body>
 <header id="header">  
     <div class="header_div">
         <img src="/img/logo_cabecalho.png" alt="Logo Cabeçalho" id = "header_logo">
-        <a href="null"><img src="/img/cart.png" id="cart" alt=""></a>
+        <a href="/carrinho/carrinho.html"><img src="/img/cart.png" id="cart" alt=""></a>
         <nav>
-                <a href="login.html" id="souconsumidor">Sou Consumidor</a>
-                <a href="login.html" id="souprodutor">Sou Produtor</a> 
-                <a href="null" id="sobrenos">Sobre Nós</a> 
-                <a href="null" id="contato">Contato</a> 
-                <a href="/homepage.html" id="home_button">Home</a>
+            <a href="/login_consumidor/login_Consumidor.html" id="souconsumidor">Sou Consumidor</a>
+            <a href="/login_produtor/login_Produtor.html" id="souprodutor">Sou Produtor</a> 
+                <a href="/sobre_nos/sobrenos.html" id="sobrenos">Sobre Nós</a> 
+                <a href="/pagina_cont/contato.html" id="contato">Contato</a> 
+                <a href="/homepage/homepage.html" id="home_button">Home</a>
         </nav>
     </div>
 </header>
@@ -35,9 +33,9 @@
         <p><input id="name" type="text" placeholder="E-mail"></p>
         <p><input id="password" type="password" placeholder="Senha"></p>
         <p><a href="null" id="Forgot">Esqueci minha senha</a></p>
-        <button id="enviar" onclick='logar()' >Entrar</button> 
+        <a href=""><button id="enviar">Entrar</button></a> 
         <p id="text1">Ainda não tem conta?</p>
-        <p id="text2"><a href="cadastro.html" id="text2_link">Clique aqui</a> para cadastrar</p>
+        <p id="text2"><a href="/cadastro_produtor/cadastro_produtor.html" id="text2_link">Clique aqui</a> para cadastrar</p>
     </div>
 
 </section>
@@ -53,21 +51,17 @@
         
         <label for="newsletter" id="newsletter">Assine nossa Newsletter!</label>
         <input type="email" id="emailnews" name="email" placeholder="E-mail">                
-        <input type="submit" class = "button" value = "Inscreva-se!" ">
-
-        
-            
+        <input type="submit" class = "button" value = "Inscreva-se!">
+          
                 
         <div class="contato">
-            <a href="null">Sobre Nós</a> <br>
-            <a href="null">Contato</a>
+            <a href="/sobre_nos/sobrenos.html">Sobre Nós</a> <br>
+            <a href="/pagina_cont/contato.html">Contato</a>
         </div>
     </div>
-    
 </footer>
 
 
     
 </body>
-<script src="login.js"></script>
 </html>

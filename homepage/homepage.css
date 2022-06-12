@@ -1,121 +1,68 @@
 body{
-    margin: 0%;
-    background-color: #dfe9ed;    
+  margin: 0%;
+  background-color: #dfe9ed;
+  overflow-x: hidden;
 }
+/* -------------------------Section------------------------ */
 
 section{
-  height: 100vh;
-}
+    height: 110vh;
 
-#login{
-    
-    background-color: #FFFDF8;
+  }
+
+  /*----------Conteúdo: barra de busca e estilizações----------*/
+
+.container-content {
+    width: 20%; /* define a largura do campo de busca */ 
+    position: relative;  
+    left: 100px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    padding: 30px;
-    border-radius: 30px;
-    height: 255px;
-        
-}
-#login_text{
-    position: relative;
-    color: #3E160C;    
-    top: -40px;
-    left: 80px;
-    font-family: 'Grand Hotel', cursive; 
-    font-size: 40px;
-
-}
-#name{
-    position: relative;
-    padding: 15px;
-    top: -60px;
-    border: none;
-    outline: none;
-    font-size: 15px;
-    background-color: #ffff;
-    padding: 10px 20px ;
-    border: 2px solid #5C8C45;
-    border-radius: 15px;
-    color:#5C8C45;
-}
-
-#name::placeholder{
-    color:#5C8C45;
-}
-
-#password{
-    position: relative;
-    top: -60px;
-    padding: 30px;
-    border: none;
-    outline: none;
-    font-size: 15px;
-    background-color: #ffff;
-    padding: 10px 20px ;
-    border: 2px solid #5C8C45;
-    border-radius: 15px;
-    color:#5C8C45;
-}
-
-#password::placeholder{
-    color:#5C8C45;
-}
-
-#Forgot{
-    position: relative;
-    top: -70px;
-    color:#5C8C45;
-    font-size: 13px;
-    text-decoration: none;
-    font-weight: bold;
-    left: 50px;
-    padding-bottom: 10px;
-}
-
-#enviar{
-    position: relative;
-    background-color: #F26E24;
-    border: none;
-    padding: 10px;
-    width: 60%;
-    top: -80px;
-    left: 45px;
-    border-radius: 16px;
-    color: #fff;
-    font-size: 15px;
-}
-#enviar:hover{
-background-color: rgb(111, 143, 111);
-}
-
-#text1{
-    position: relative;
-    font-size: 13px;
-    color: #3E160C;
-    font-weight: bold;
-    top: -80px;
-    left: 55px;
-}
-
-#text2{
-    position: relative;
-    top: -95px;
-    color: #3E160C;
-    font-weight: bold;
-    font-size: 15px;
-    left: 25px;
-}
-
-#text2_link{
-  color: #F26E24;
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 15px;
-}
+    top: 400px;
+  }
   
+  label.busca {
+      display:block;
+      font-size: 40px;
+      top: 0%;
+      color: #ca6228;
+      font-family: 'Grand Hotel', cursive; 
+      left: 100px;
+      position: relative;
+      top: 280px;
+  }
+  
+  .location {
+  width: 100%;
+  background-color: #ffff;
+  padding: 10px 20px ;
+  border: 2px solid #4F62B4;
+  border-radius: 15px;
+  color: #4F62B4;
+  }
+  
+  .location::placeholder{
+  top: 0;  
+  color: #4F62B4;
+  font-weight: bold;
+  } 
+  
+  .location,  #search {padding: 10px;}
+  
+  #search {
+    position: absolute;   
+    top: 400; 
+    left: 340px;
+    background: none; 
+    border: none;
+    }
+  
+  /*background*/
+  
+  .container-bg { 
+  position: relative;  
+  left: 500px;
+  top: 15px;
+  }
 
 
   /* -------------------------Header------------------------- */
@@ -185,7 +132,7 @@ background-color: rgb(111, 143, 111);
     overflow: hidden;
     background-color: #9ab88c;
     padding: 20px 10px;
-    height: 18vh;
+    height: 15vh;
     width: 100%
   }
   .container_footer{
@@ -286,4 +233,5 @@ background-color: rgb(111, 143, 111);
     width: 50px;
     height: 50px;
   }
+  
   
