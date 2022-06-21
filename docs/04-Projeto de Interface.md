@@ -13,7 +13,7 @@ A navegação geral contempla 3 telas e demonstra o caminho que o usuário segui
 ### Home Page
 A tela Home Page apresenta o componente de pesquisa que permite ao usuário indicar o local em que mora para buscar produtores próximos. No cabeçalho há um menu com as opções:  
 - **Sobre nós**, com informações sobre a companhia; 
-- **Contato**, com um formulário para envio de dúvidas, sugestões ou reclamações;
+- **Contato**, com dados para o cliente entrar em contato com a companhia;
 - **Sou Produtor**, que direcionará para a tela de login ou cadastro de produtores;
 - **Sou Consumidor**, que direcionará para página de login ou cadastro de consumidores. 
 O rodapé apresenta o formulário de assinatura de newsletter e atalhos para mídias sociais. As opções “Sobre nós” e “Contato” aparecem novamente.   

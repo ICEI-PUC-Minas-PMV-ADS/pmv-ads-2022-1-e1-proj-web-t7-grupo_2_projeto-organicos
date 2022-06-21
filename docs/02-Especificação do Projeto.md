@@ -42,30 +42,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito                                                                                  | Prioridade |
 |------|---------------------------------------------------------------------------------------------------------|------------|
-|RF-001| O site deverá oferecer assinaturas com seleção de produtos e a periodicidade de entrega.                | Alta       | 
+|RF-001| O site deverá oferecer assinaturas de produtos e a periodicidade de entrega.                            | Alta       | 
 |RF-002| O site deverá oferecer um mapeamento de produtores, horários e locais de vendas.                        | Alta       |
-|RF-003| O site deverá permitir o salvamento e manejo de fornecedores e produtos.                                | Alta       |
-|RF-004| O site deverá oferecer a funcionalidade de pesquisa com filtro.                                         | Baixa      |
-|RF-005| O site deverá permitir o cadastro de fornecedores e usuários, bem como manter os perfis de usuário.     | Alta       |
-|RF-006| O site deverá oferecer um sistema de comunicação entre consumidor e produtor.                           | Média      |
-|RF-007| O site deverá conter um sistema de pagamento integrado.                                                 | Média      |
-|RF-008| O site deverá conter um sistema de avaliação de fornecedores com termômetro de confiabilidade.          | Alta       |
-|RF-009| O site deverá conter um blog interativo para publicidade e incentivo ao consumo de orgânicos.           | Baixa      |
-|RF-010| O site deverá conter uma área de suporte ao cliente.                                                    | Média      |
-|RF-011| O site deverá permitir o cadastro de promoções para os produtos obtidos, aplicando automaticamente o percentual de desconto vinculando ao cadastro do produto. | Média |
-|RF-012| O site deverá permitir que o usuário possa alterar os dados do seu cadastro.                            | Média      |
-|RF-013| O site deverá permitir que se verifique quais vendas foram realizadas e qual o status de seu pagamento. | Alta       |
-|RF-014| O site deverá informar quando o produto for enviado ao cliente.                                         | Baixa      |
+|RF-003| O site deverá permitir o cadastro de fornecedores e usuários                                      .     | Alta       |
+|RF-004| O site deverá conter um sistema de pagamento integrado.                                                 | Média      |
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito                                                                  |Prioridade |
 |-------|-----------------------------------------------------------------------------------------|-----------|
-|RNF-001| O site deverá ser publicado em um ambiente público e acessível na Internet.             | Média     | 
-|RNF-002| O site deverá ser responsivo.                                                           | Alta      | 
+|RNF-001| O site deverá ser publicado em um ambiente público e acessível na Internet.             | Alta      |  
 |RNF-003| O site deverá ser compatível com os principais navegadores.                             | Baixa     |
-|RNF-004| O site deverá conter um sistema de segurança e criptografia de informações dos usuários.| Alta      | 
 
 
 ## Restrições
@@ -73,6 +61,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Restrição                                                      |
 |------|----------------------------------------------------------------|
 |RE-001| A solução deverá ser implementada e apresentada até 12/06/2022.|
-|RE-002| O sistema deverá ser desenvolvido em JavaScript, HTML e CSS.   |
+|RE-002| O sistema deverá ser desenvolvido em HTML e CSS.   |
 |RE-003| O desenvolvimento do trabalho não pode ser subcontratado.      |
 
