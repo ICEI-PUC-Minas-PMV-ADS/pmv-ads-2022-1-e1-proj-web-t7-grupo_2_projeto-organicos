@@ -1,0 +1,26 @@
+message: Please cite this software using these metadata.
+title: Feira em Casa
+authors:
+  - family-names: de Moura
+    given-names: Aline
+  - family-names: Eduardo Pereira Marques
+    given-names: Carlos Eduardo
+  - family-names: Maria Munhoz
+    given-names: Cibeli
+  - family-names: Balbi De Faria Junior
+    given-names: Cristian
+  - family-names: Gonçalves Teles
+    given-names: Leonardo
+  - family-names: Henrique de Morais
+    given-names: Pablo
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Assis Valentim
+    given-names: Nathalia
+keywords:
+  - Produtos Orgânicos
+  - Delivery
+  - E-commerce
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t7-grupo_2_projeto-organicos/tree/main
+version: 1.0.0
+date-released: 2022-06-31
